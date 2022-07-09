@@ -1,0 +1,84 @@
+#jumbotron {
+  height: 10rem;
+  background-color: black;
+  color: white;
+  margin: 10px -4px;
+}
+
+#dashboardCards {
+  display: flex;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+#dashboardCard {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(19, 19, 19);
+
+  width: 22rem;
+  margin: 10px -4px;
+  height: 100%;
+  color: white;
+}
+#jumbotron:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+#calendar {
+  margin: 1rem 0px;
+  padding: 2rem 0px;
+  background-color: rgb(255, 255, 255);
+  width: 23rem;
+  height: 19rem;
+
+  padding: 2px;
+  float: right;
+}
+#chatbot {
+  background-color: #292b2c;
+  color: rgb(60, 241, 60);
+  border-radius: 13px;
+  transition: ease-in-out 0.5s;
+}
+
+#modalCustom {
+  background-color: black;
+  color: white;
+}
+
+#chatbotHeader {
+  background-color: #1a1a1a;
+  float: right;
+}
+#chatbotOnline {
+  padding: 4px;
+  margin-left: 5px;
+}
+
+#dashboardCard:hover {
+  background-color: #292b2c;
+}
+
+@media screen and (max-width: 767px) {
+  #dashboardCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #dashboardCard {
+    border: 2px solid rgb(90, 78, 78);
+    width: 20rem;
+    margin: 10px;
+  }
+
+  #calendar {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #dashboardCards {
+    width: 50%;
+  }
+}
